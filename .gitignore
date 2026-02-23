@@ -84,3 +84,4 @@ Thumbs.db
 !wormlab-ring/data/processed/.gitkeep
 !wormlab-ring/data/figures/.gitkeep
 !wormlab-ring/data/metadata/.gitkeep
+!wormlab-ring/data/metadata/*_example.yaml
