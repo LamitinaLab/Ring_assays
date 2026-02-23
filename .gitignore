@@ -37,10 +37,11 @@ wormlab-ring/data/*/processed/
 wormlab-ring/data/*/figures/
 wormlab-ring/data/*/metadata/
 
-# Also exclude root level data folders
-wormlab-ring/data/raw/
-wormlab-ring/data/processed/
-wormlab-ring/data/figures/
+# Also exclude root level data folders  
+wormlab-ring/data/raw/*
+wormlab-ring/data/processed/*
+wormlab-ring/data/figures/*
+wormlab-ring/data/metadata/*
 
 # Archive Folders
 wormlab-ring/data/archive_*/
@@ -79,6 +80,7 @@ Thumbs.db
 *.mat
 
 # Keep these files (override patterns above)
-!wormlab-ring/data/figures/.gitkeep
-!wormlab-ring/data/processed/.gitkeep
 !wormlab-ring/data/raw/.gitkeep
+!wormlab-ring/data/processed/.gitkeep
+!wormlab-ring/data/figures/.gitkeep
+!wormlab-ring/data/metadata/.gitkeep
